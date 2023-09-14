@@ -77,7 +77,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
 
                     String[] strChoiceItems = {"수정하기", "삭제하기"};
                     AlertDialog.Builder builder = new AlertDialog.Builder(mcontext);
-                    builder.setTitle("원하는 작업을 선택해주세요");
+                    builder.setTitle("원하는 작업을 선택해주세요!");
                     builder.setItems(strChoiceItems, new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int position)
